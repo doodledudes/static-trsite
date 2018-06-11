@@ -29,8 +29,8 @@
   "overrides": {
     "bootstrap": {
       "main": [
-        "**/*.min.css",
-        "**/fonts/*.*",
+        "dist/css/**/*.min.css",
+        "dist/fonts/**/*.*",
         "js/dropdown.js",
         "js/collapse.js",
         "js/transition.js"
