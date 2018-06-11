@@ -1,0 +1,191 @@
+extends ./layout/_layout-page.pug
+
+block content
+
+  section
+    .container
+      .section-banner-web-dev
+        .text
+          h4 Web Application Development
+          p In the world eaten by software, business is not just about doing deals. Today, success in business means having great products powered by amazing software application engineering.
+        //- text
+      //- section-banner-expertise
+      .expertise
+        .row
+          .col-md-6
+            .box
+          //- col
+          .col-md-6
+            strong
+              big Robust structure
+            //- strong
+            br
+            br
+            p From creating to maintaining your software--twistresources offers full-cycle software development.
+            p Our qualified consultants can analyze your business and suggest ways in which software can improve your business. Our developers can build the perfect solution for your business and your clients. Our marketing team can help you launch the product into the masses.
+          //- col
+        //- row
+        .row
+          .col-md-6
+            strong
+              big Quality and fast delivery
+            //- strong
+            br
+            br
+            p It is true to say that a lot of people think you cannot preserve quality without sacrificing agility, and that you cannot move fast without also breaking things. Additionally, it is incredible that some still think it possible to analyze and estimate the design of a project within 10 minutes, before assembling a gang of programmers for a single gig to make it all happen. Unfortunately, the fact is that after this sort of gig, you’ll be spending the rest of your money on rework and maintenance costs.
+            p In contrast, however, more and more, this doesn’t have to be true in your case. Web development is not a zero-sum game anymore. Not if you use peer review, testing automation and short development cycles.
+            p We are hackers and developers, salvaging the ill advised and unprofitable development efforts of previous design generations, and using what you already have to build with quality and vigour on a foundation of design fundamentals.
+            p In fact we begin by making solid design decisions, using thorough going task analysis and planning phases, then implement ideas in the pursuit of agreed upon goals, according to the great software engineering techniques and efficient code architecture that never goes out of fashion.
+          //- col
+          .col-md-6
+            .box
+          //- col
+        //- row
+      //- expertise
+    //- container
+  //- section
+  
+  section
+    .section-technologies
+      .container
+        .row.wrap
+          .col-md-3
+            strong
+              big Technologies being used
+            //- strong
+          //- col
+          .col-md-9
+            .row
+              .col-md-2.col-sm-4.col-xs-4
+                img.img-circle(src='//unsplash.it/g/70?random', width='50', height='50')
+              //- col
+              .col-md-2.col-sm-4.col-xs-4
+                img.img-circle(src='//unsplash.it/g/70?random', width='50', height='50')
+              //- col
+              .col-md-2.col-sm-4.col-xs-4
+                img.img-circle(src='//unsplash.it/g/70?random', width='50', height='50')
+              //- col
+              .col-md-2.col-sm-4.col-xs-4
+                img.img-circle(src='//unsplash.it/g/70?random', width='50', height='50')
+              //- col
+              .col-md-2.col-sm-4.col-xs-4
+                img.img-circle(src='//unsplash.it/g/70?random', width='50', height='50')
+              //- col
+              .col-md-2.col-sm-4.col-xs-4
+                img.img-circle(src='//unsplash.it/g/70?random', width='50', height='50')
+              //- col
+            //- row
+          //- col
+          .clearfix
+        //- wrap
+      //- container
+    //- section-contact
+  //- section
+  
+  section
+    .section-other-expertise
+      .container
+        .row
+          .col-md-8.col-md-offset-2
+            .text-center
+              h4 Other expertise
+              p We always reinforcedby our ability to deliver what we promise.
+            //- text-center
+          //- col
+        //- row
+        br
+        .carousel-other-expertise
+          .rotating-banner
+            .owl-carousel.owl-theme
+              .box
+                .icon
+                  img.img-circle(src='//unsplash.it/g/70?random', width='50', height='50')
+                //- icon
+                .title
+                  | Mobile Application
+                  br
+                  | Development
+                //- title
+              //- box
+              .box
+                .icon
+                  img.img-circle(src='//unsplash.it/g/70?random', width='50', height='50')
+                //- icon
+                .title
+                  | Custom Software
+                  br
+                  | Development
+                //- title
+              //- box
+              .box
+                .icon
+                  img.img-circle(src='//unsplash.it/g/70?random', width='50', height='50')
+                //- icon
+                .title
+                  | e-Commerce
+                  br
+                  | Solution
+                //- title
+              //- box
+              .box
+                .icon
+                  img.img-circle(src='//unsplash.it/g/70?random', width='50', height='50')
+                //- icon
+                .title
+                  | UI/UX
+                  br
+                  | Design
+                //- title
+              //- box
+            //- owl-carousel
+          //- rotating-banner
+        //- carousel-other-expertise
+      //- container
+    //- section-other-expertise
+  //- section
+  
+  section.contact
+    .section-contact
+      .container
+        .row
+          .col-md-6.col-md-offset-3
+            .card
+              .text-center
+                h4 twistresources
+                p Many of your company's ambitious goals demand custom software solutions. twistresources built a company expressly for the purpose of satisfying your application development needs.
+                br
+                a.btn.btn-default.btn-action(href='') Contact Us
+              //- text-center
+            //- card
+          //- col
+        //- row
+      //- container
+    //- section-contact
+  //- section
+
+block scripts
+  // External Script goes here...
+  script.
+    $(document).ready(function() {
+      $('.owl-carousel').owlCarousel({
+        loop: true,
+        autoplay: true,
+        dots: false,
+        nav: true,
+        navText: ['<i class="fa fa-chevron-left"></i>','<i class="fa fa-chevron-right"></i>'],
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            nav: true,
+            items: 2
+          },
+          1000: {
+            nav: true,
+            items: 3
+          }
+        }
+      });
+    });

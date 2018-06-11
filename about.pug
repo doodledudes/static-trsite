@@ -1,0 +1,500 @@
+extends ./layout/_layout-page.pug
+
+block content
+
+  section
+    .container
+      .section-banner-who
+        .text
+          h4 Who we are
+          p When we started in 2007, we were just a tight group of people dedicated to the craft of product building. Our attitude has not changed -- but since then, we've grown to be a team of 70 developers and designers with every skill web software needs to be successful. From the first concept to the grand release.
+        //- text
+      //- section-banner-home
+      .row.stats
+        .col-md-3.col-sm-6.col-xs-6
+          .box
+            .counter 88
+            .stat-label
+              | Projects
+              br
+              | Completed
+            //- .label
+          //- box
+        //- col
+        .col-md-3.col-sm-6.col-xs-6
+          .box
+            .counter 10
+            .stat-label
+              | Years In
+              br
+              | Operation
+            //- .label
+          //- box
+        //- col
+        .col-md-3.col-sm-6.col-xs-6
+          .box
+            .counter 77
+            .stat-label
+              | Top Dev
+              br
+              | Developers
+            //- .label
+          //- box
+        //- col
+        .col-md-3.col-sm-6.col-xs-6
+          .box
+            .counter 50
+            .stat-label
+              | Loyal
+              br
+              | Clients
+            //- .label
+          //- box
+        //- col
+      //- row
+    //- container
+  //- section
+  
+  section
+    .section-work
+      .container
+        .row
+          .col-md-7.left
+            .box
+              h4 How we work
+              p Our working, living and even resting culture is constantly improved with simpler solutions, and apps play a great role in that process.
+              p We at TwistResources are often amazed with some of the brilliant ideas out potential clients bring to the table, thinking how does one come up with something like that?
+              p We like that the part before we get the spec is a wonderful mystery after-is our field of expertise.
+              a.btn.btn-default.btn-action(href='') Contact Us
+            //- box
+          //- col
+          .col-md-5.right
+            .video
+              iframe(width='560', height='315', src='https://www.youtube.com/embed/69nEzHLy_tM', frameborder='0', allowfullscreen='')
+            //- video
+          //- col
+        //- row
+      //- container
+    //- section-work
+  //- section
+  
+  section
+    .section-culture
+      .container
+        .row
+          .col-md-6.left
+            .box
+              .image
+                
+              //- image
+            //- box
+          //- col
+          .col-md-6.right
+            .box
+              h4 Our culture
+              p There's nothing more exciting than going out there and saying why what you do matters.
+              p That's what drives us when we organize, support and attend to local events in both Wroclaw. We love to listen to what others do; we love to share what we've done. So... when and where would you like to talk?
+            //- box
+          //- col
+        //- row
+      //- container
+    //- section-work
+  //- section
+  
+  section
+    .section-timeline
+      .container
+        .row
+          .col-md-8.col-md-offset-2
+            .text-center
+              h4 The TwistResources timeline
+              p When we started in 2007, we were just a tight group of people dedicated to the craft of product building. Our attitude has not changed -- but since then, we've grown to be a team of 70 developers and designers with every skill web software needs to be successful. From the first concept to the grand release.
+            //- text-center
+          //- col
+        //- row
+        .timeline
+          .pole
+          .scope.present
+            .point(data-date='February 2007')
+            .date.visible-xs February 2007
+            .data
+              strong Lorem ipsum dolor sit amet
+              .company
+                a(href="//www.twistresources.com/", target="_blank") Dolor sit amet
+            //- data
+            .desc
+              .content.collapse#trdesc1
+                .wrap
+                  small
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                //- wrap
+              //- content
+              .btn-expand
+                a.collapsed(href="#trdesc1", data-toggle="collapse")
+                  i.fa.fa-chevron-down
+                //- a
+              //- btn-expand
+            //- desc
+          //- scope
+          .scope
+            .point(data-date='January 2012')
+            .date.visible-xs January 2012
+            .data
+              strong Lorem ipsum dolor sit amet
+              .company
+                a(href="//www.twistresources.com/", target="_blank") Dolor sit amet
+            //- data
+            .desc
+              .content.collapse#trdesc2
+                .wrap
+                  small
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                //- wrap
+              //- content
+              .btn-expand
+                a.collapsed(href="#trdesc2", data-toggle="collapse")
+                  i.fa.fa-chevron-down
+                //- a
+              //- btn-expand
+            //- desc
+          //- scope
+          .scope
+            .point(data-date='January 2015')
+            .date.visible-xs January 2015
+            .data
+              strong Lorem ipsum dolor sit amet
+              .company
+                a(href="//www.twistresources.com/", target="_blank") Dolor sit amet
+            //- data
+            .desc
+              .content.collapse#trdesc3
+                .wrap
+                  small
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                //- wrap
+              //- content
+              .btn-expand
+                a.collapsed(href="#trdesc3", data-toggle="collapse")
+                  i.fa.fa-chevron-down
+                //- a
+              //- btn-expand
+            //- desc
+          //- scope
+          .scope
+            .point(data-date='January 2017')
+            .date.visible-xs January 2017
+            .data
+              strong Lorem ipsum dolor sit amet
+              .company
+                a(href="//www.twistresources.com/", target="_blank") Dolor sit amet
+            //- data
+            .desc
+              .content.collapse#trdesc4
+                .wrap
+                  small
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                //- wrap
+              //- content
+              .btn-expand
+                a.collapsed(href="#trdesc4", data-toggle="collapse")
+                  i.fa.fa-chevron-down
+                //- a
+              //- btn-expand
+            //- desc
+          //- scope
+        //- timeline
+      //- container
+    //- section-work
+  //- section
+  
+  section
+    .section-team
+      .container
+        .row
+          .col-md-8.col-md-offset-2
+            .text-center
+              h4 Meet our team
+              p Technology alone is not enough to succeed, every product needs a team of passionate people who will give it their best.
+            //- text-center
+          //- col
+        //- row
+        br
+        br
+        .team
+          .group.collapsed(data-toggle='collapse', data-target='#teamCoFounders') The Co-Founders
+          .wrap#teamCoFounders.collapse
+            .members
+              .row
+                .col-md-2.col-sm-4.col-xs-6
+                  .box
+                    .image
+                      img(src='//unsplash.it/g/70?random?blur', width='90')
+                    //- image
+                    .name Phil Callender
+                    .title Chief Executive Officer
+                    .social
+                      a(href='')
+                        i.fa.fa-linkedin
+                      //- a
+                      a(href='')
+                        i.fa.fa-github
+                      //- a
+                    //- social
+                  //- box
+                //- col-md-2
+                .col-md-2.col-sm-4.col-xs-6
+                  .box
+                    .image
+                      img(src='//unsplash.it/g/70?random?blur', width='90')
+                    //- image
+                    .name Arv Naidu
+                    .title Chief Strategy Officer
+                    .social
+                      a(href='')
+                        i.fa.fa-linkedin
+                      //- a
+                      a(href='')
+                        i.fa.fa-github
+                      //- a
+                    //- social
+                  //- box
+                //- col-md-2
+              //- row
+            //- members
+          //- wrap
+        //- team
+        .team
+          .group.collapsed(data-toggle='collapse', data-target='#teamPM') The Project Managers
+          .wrap#teamPM.collapse
+            .members
+              .row
+                .col-md-2.col-sm-4.col-xs-6
+                  .box
+                    .image
+                      img(src='//unsplash.it/g/70?random?blur', width='90')
+                    //- image
+                    .name Name
+                    .title Title
+                    .social
+                      a(href='')
+                        i.fa.fa-linkedin
+                      //- a
+                      a(href='')
+                        i.fa.fa-github
+                      //- a
+                    //- social
+                  //- box
+                //- col-md-2
+                .col-md-2.col-sm-4.col-xs-6
+                  .box
+                    .image
+                      img(src='//unsplash.it/g/70?random?blur', width='90')
+                    //- image
+                    .name Name
+                    .title Title
+                    .social
+                      a(href='')
+                        i.fa.fa-linkedin
+                      //- a
+                      a(href='')
+                        i.fa.fa-github
+                      //- a
+                    //- social
+                  //- box
+                //- col-md-2
+              //- row
+            //- members
+          //- wrap
+        //- team
+        .team
+          .group.collapsed(data-toggle='collapse', data-target='#teamDev') The Development Team
+          .wrap#teamDev.collapse
+            .members
+              .row
+                .col-md-2.col-sm-4.col-xs-6
+                  .box
+                    .image
+                      img(src='//unsplash.it/g/70?random?blur', width='90')
+                    //- image
+                    .name Name
+                    .title Title
+                    .social
+                      a(href='')
+                        i.fa.fa-linkedin
+                      //- a
+                      a(href='')
+                        i.fa.fa-github
+                      //- a
+                    //- social
+                  //- box
+                //- col-md-2
+                .col-md-2.col-sm-4.col-xs-6
+                  .box
+                    .image
+                      img(src='//unsplash.it/g/70?random?blur', width='90')
+                    //- image
+                    .name Name
+                    .title Title
+                    .social
+                      a(href='')
+                        i.fa.fa-linkedin
+                      //- a
+                      a(href='')
+                        i.fa.fa-github
+                      //- a
+                    //- social
+                  //- box
+                //- col-md-2
+              //- row
+            //- members
+          //- wrap
+        //- team
+        .team
+          .group.collapsed(data-toggle='collapse', data-target='#teamQA') The Quality Assurance Team
+          .wrap#teamQA.collapse
+            .members
+              .row
+                .col-md-2.col-sm-4.col-xs-6
+                  .box
+                    .image
+                      img(src='//unsplash.it/g/70?random?blur', width='90')
+                    //- image
+                    .name Name
+                    .title Title
+                    .social
+                      a(href='')
+                        i.fa.fa-linkedin
+                      //- a
+                      a(href='')
+                        i.fa.fa-github
+                      //- a
+                    //- social
+                  //- box
+                //- col-md-2
+                .col-md-2.col-sm-4.col-xs-6
+                  .box
+                    .image
+                      img(src='//unsplash.it/g/70?random?blur', width='90')
+                    //- image
+                    .name Name
+                    .title Title
+                    .social
+                      a(href='')
+                        i.fa.fa-linkedin
+                      //- a
+                      a(href='')
+                        i.fa.fa-github
+                      //- a
+                    //- social
+                  //- box
+                //- col-md-2
+              //- row
+            //- members
+          //- wrap
+        //- team
+        .team
+          .group.collapsed(data-toggle='collapse', data-target='#teamInfra') The Infra Team
+          .wrap#teamInfra.collapse
+            .members
+              .row
+                .col-md-2.col-sm-4.col-xs-6
+                  .box
+                    .image
+                      img(src='//unsplash.it/g/70?random?blur', width='90')
+                    //- image
+                    .name Name
+                    .title Title
+                    .social
+                      a(href='')
+                        i.fa.fa-linkedin
+                      //- a
+                      a(href='')
+                        i.fa.fa-github
+                      //- a
+                    //- social
+                  //- box
+                //- col-md-2
+                .col-md-2.col-sm-4.col-xs-6
+                  .box
+                    .image
+                      img(src='//unsplash.it/g/70?random?blur', width='90')
+                    //- image
+                    .name Name
+                    .title Title
+                    .social
+                      a(href='')
+                        i.fa.fa-linkedin
+                      //- a
+                      a(href='')
+                        i.fa.fa-github
+                      //- a
+                    //- social
+                  //- box
+                //- col-md-2
+              //- row
+            //- members
+          //- wrap
+        //- team
+        .team
+          .group.collapsed(data-toggle='collapse', data-target='#teamCreatives') The Creatives Team
+          .wrap#teamCreatives.collapse
+            .members
+              .row
+                .col-md-2.col-sm-4.col-xs-6
+                  .box
+                    .image
+                      img(src='//unsplash.it/g/70?random?blur', width='90')
+                    //- image
+                    .name Name
+                    .title Title
+                    .social
+                      a(href='')
+                        i.fa.fa-linkedin
+                      //- a
+                      a(href='')
+                        i.fa.fa-github
+                      //- a
+                    //- social
+                  //- box
+                //- col-md-2
+                .col-md-2.col-sm-4.col-xs-6
+                  .box
+                    .image
+                      img(src='//unsplash.it/g/70?random?blur', width='90')
+                    //- image
+                    .name Name
+                    .title Title
+                    .social
+                      a(href='')
+                        i.fa.fa-linkedin
+                      //- a
+                      a(href='')
+                        i.fa.fa-github
+                      //- a
+                    //- social
+                  //- box
+                //- col-md-2
+              //- row
+            //- members
+          //- wrap
+        //- team
+        br
+        br
+        br
+      //- container
+    //- section-work
+  //- section
+  
+  section.join
+    .container
+      | If you are looking for an opportunity to challenge yourself and grow, then we could just be the company you are looking for.&nbsp;
+      a.btn.btn-default.btn-action(href='') Join Us Now
+    //- container
+  //- section
+
+block scripts
+  // External Script goes here...
+  script.
+    $(document).ready(function() {
+      
+    });
